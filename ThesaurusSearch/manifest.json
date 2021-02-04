@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Thesaurus.com search engine",
+  "description": "Adds a search engine that searches Thesaurus.com",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/thesaurus_48.png",
+    "96": "icons/thesaurus_96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Thesaurus.com",
+      "search_url": "https://www.thesaurus.com/browse/{searchTerms}?s=t",
+      "keyword": "thes",
+      "favicon_url": "https://www.thesaurus.com/assets/favicon-dae75822a91aa45e01d52041b4baf101.png",
+      "is_default": false
+    }
+  }
+}
