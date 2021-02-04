@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Dictionary.com search engine",
+  "description": "Adds a search engine that searches Dictionary.com",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/dictionary_48.png",
+    "96": "icons/dictionary_96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Dictionary.com",
+      "search_url": "https://www.dictionary.com/browse/{searchTerms}?s=t",
+      "keyword": "dict",
+      "favicon_url": "https://www.dictionary.com/assets/favicon-d73532382d3943b0fef5b78554e2ee9a.png",
+      "is_default": false
+    }
+  }
+}
