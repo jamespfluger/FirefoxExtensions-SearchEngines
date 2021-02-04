@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Etsy search engine",
+  "description": "Adds a search engine that searches Etsy",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/etsy_48.png",
+    "96": "icons/etsy_96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Etsy",
+      "search_url": "https://www.etsy.com/search?q={searchTerms}",
+      "keyword": "etsy",
+      "favicon_url": "https://www.etsy.com/images/favicon.ico",
+      "is_default": false
+    }
+  }
+}
