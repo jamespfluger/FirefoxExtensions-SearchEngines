@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Dictionary.com search engine",
-  "description": "Adds a search engine that searches Dictionary.com",
+  "name": "Dictionary.com Search Shortcut",
+  "description": "Adds Dictionary.com to the list of search engine shortcuts",
   "version": "1.0.0",
   "icons": {
     "48": "icons/dictionary_48.png",

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "YouTube search engine",
-  "description": "Adds a search engine that searches YouTube",
+  "name": "YouTube Search Engine Shortcut",
+  "description": "Adds YouTube to the list of search engine shortcuts",
   "version": "1.0.0",
   "icons": {
     "48": "icons/youtube_48.png",

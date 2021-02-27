@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Etsy search engine",
-  "description": "Adds a search engine that searches Etsy",
+  "name": "Etsy Search Engine Shortcut",
+  "description": "Adds Etsy to the list of search engine shortcuts",
   "version": "1.0.0",
   "icons": {
     "48": "icons/etsy_48.png",
