@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Google Maps Search Engine Shortcut",
+  "description": "Adds Google Maps to the list of search engine shortcuts",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/googlemaps_48.png",
+    "96": "icons/googlemaps_96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Google Maps",
+      "search_url": "https://www.google.com/maps/search/{searchTerms}/",
+      "keyword": "maps",
+      "favicon_url": "https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.ico",
+      "is_default": false
+    }
+  }
+}
