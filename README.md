@@ -4,7 +4,7 @@ A compilation of search engine shortcuts for Mozilla Firefox
 
 ## Setup
 
-### Regular installations:
+### Regular installation:
 
 If you only want to install the extensions, you can do so by navigating to their respective product pages:
 - [Etsy Search Engine Shortcut](https://addons.mozilla.org/en-US/firefox/addon/etsy-search-engine-shortcut/)
@@ -12,7 +12,7 @@ If you only want to install the extensions, you can do so by navigating to their
 - [Thesaurus.com Search Shortcut](https://addons.mozilla.org/en-US/firefox/addon/thesaurus-com-search-shortcut/)
 - [YouTube Search Engine Shortcut](https://addons.mozilla.org/en-US/firefox/addon/youtube-search-engine-shortcut/)
 
-### Debugging and development installations:
+### Debugging and development installation:
 
 If you want to install them as a temporary add-on for debugging, you can follow these steps:
 1. Open Firefox
